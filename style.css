@@ -1,0 +1,9 @@
+*{ margin:0; padding:0; list-style:none; }
+body{font:14px/1.6 -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", STHeiti, "Microsoft Yahei", Tahoma, Simsun, sans-serif; color:#333; outline:0;}
+
+#main{ padding-bottom:30px; background-color:#fff; }
+#main dl dt{ height:30px; padding:0 15px; line-height:30px; font-size:16px; font-weight:bold; background-color:#f2f2f0; color:#000; }
+#main dl dd{ position:relative; height:40px; margin:0 15px; border-bottom:1px solid #eee; line-height:40px; font-size:14px; color:#000; }
+#menu{ position:fixed; right:0; top:50%; width:15px; padding-left:20px; line-height:16px; font-size:15px; font-weight:bold; color:#000; text-align:center; -webkit-transform:translateY(-50%); transform:translateY(-50%); }
+#tip{ position:fixed; top:30%; left:50%; width:80px; height:80px; margin-left:-40px; border-radius:4px; line-height:80px; font-size:30px; font-weight:bold; text-align:center; background-color:rgba(0,0,0,.6); color:#fff; pointer-events:none; opacity:0; transition:.3s; }
+#tip.act{ opacity:1; }
